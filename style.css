@@ -1,0 +1,53 @@
+body,
+h1,
+p,
+div,
+input {
+    font-family: "Work Sans", serif;
+    color: #013a63;
+}
+.about-items {
+    box-shadow: 1px 1px 10px rgb(98 120 223 / 20%);
+    padding: 1rem 1rem;
+    margin-bottom: 35px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.about-items:hover {
+    box-shadow: 0px 0px 25px rgb(98 120 223 / 20%);                                                                         
+    transition: 0.2s;
+}
+.about-icon span {
+    color: #013a63;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    float: center;
+    font-size: 45px;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 15px;
+}
+.about-title h5 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.about-title p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #8c8585;
+    margin-bottom: 0;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 1rem;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * 0.5);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
